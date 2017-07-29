@@ -11,9 +11,6 @@ module.exports = {
       exclude: /node_modules/
     }]
   },
-  plugins: [
-    new LiveReloadPlugin()
-  ],
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
