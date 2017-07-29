@@ -1,5 +1,3 @@
-const LiveReloadPlugin = require('webpack-livereload-plugin')
-
 module.exports = {
   entry: './client/index.js',
   output: {
