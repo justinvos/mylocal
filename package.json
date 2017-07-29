@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
+    "start": "node server & webpack --watch",
     "dev": "nodemon --watch server server/index & webpack --watch",
     "test": "ava -v 'test/*.test.js'"
   },
